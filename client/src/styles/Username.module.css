@@ -1,0 +1,62 @@
+.glass {
+    background: rgba(255, 250, 250, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    /* border: 1px solid rgba(255, 255, 255, 0.3); */
+    height: 36rem;
+    width: 30%;
+    border-radius: 1.5rem;
+    padding: 20px 7px;
+    min-width: max-content;
+    flex-shrink: 0;
+    border-color:4px solid rgb(249 250 251);
+}
+
+.profile_img {
+    border: 4px solid rgb(243, 244, 246);
+    width: 135px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    cursor: pointer;
+
+}
+
+.profile_img:hover {
+    border-color: rgb(229 231 235);
+}
+
+.textbox {
+    border: 0px;
+    padding: 4px 5px;
+    width: 75%;
+    border-radius: 0.75rem; 
+    box-shadow: 0 1px 2px 0 rgba(23, 22, 22, 0.05);
+    font-size: 1.125rem; 
+    line-height: 1.75rem;
+    outline: none;
+    @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg;
+    @apply focous: outline-none;
+}
+
+.btn {
+    width: 75%;
+    padding: 4px 0;
+    border-radius: 0.5rem;
+    color: rgb(249 250 251);
+    font-size: 1.25rem; 
+    line-height: 1.75rem;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    background-color: rgb(99 102 241);
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #ff6a6a;
+}
+input[type='file']{
+    display: none;
+}
